@@ -21,6 +21,9 @@ console.log ("Meu nome é ",Nome)
 Exercício 3: Crie uma variável chamada isEstudante e atribua a ela um valor booleano
 representa
 
+const isEstudante = true
+console.log (isEstudante)
+
 
 Exercício 4: Crie duas variáveis numéricas, numero1 e numero2, e realize as seguintes
 operações:
@@ -35,9 +38,19 @@ operações:
 
 Exiba os resultados no console.
 
+let numero01 = 3
+let numero02 = 7 
+console.log (numero01+numero02)
+console.log (numero01-numero02)
+console.log (numero01*numero02)
+console.log (numero01/numero02)
+
 
 Exercício 5: Crie uma variável chamada frase e atribua a ela uma frase em forma de string.
 Em seguida, exiba a frase no console.
+
+const frase = "eu sou uma garota dos programa"
+console.log(frase)
 
 
 Exercício 6: Crie uma variável chamada tamanhoFrase e atribua a ela o comprimento da
