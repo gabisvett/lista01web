@@ -6,10 +6,14 @@ primitivos em JavaScript.
 
 Exercício 1: Crie uma variável chamada idade e atribua a ela sua idade. Em seguida, exiba a
 idade no console.
+let idade = 18
+console.log ("Minha idade é ",idade)
 
 
 Exercício 2: Crie uma variável chamada nome e atribua a ela seu nome. Em seguida, exiba
 seu nome no console.
+const Nome = "Gabrielle Vitória"
+console.log ("Meu nome é ",Nome)
 
 
 Exercício 3: Crie uma variável chamada isEstudante e atribua a ela um valor booleano
