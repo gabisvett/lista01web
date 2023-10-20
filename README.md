@@ -56,27 +56,51 @@ console.log(frase)
 Exercício 6: Crie uma variável chamada tamanhoFrase e atribua a ela o comprimento da
 frase do exercício anterior. Exiba o valor no console.
 
+const frase = "gabrielle vitória é demais"
+let tamanhoFrase = frase.length
+console.log(tamanhoFrase)
+
 
 Exercício 7: Crie uma variável chamada temNumero e atribua a ela um valor booleano que
 indique se a frase do exercício 5 contém algum número. Exiba o valor no console.
+
+const frase = "gabrielle vitória é demais"
+temNumero = /\d/.test(frase)
 
 
 Exercício 8: Crie uma variável chamada listaDeCompras e atribua a ela uma lista (array) de
 strings representando itens de uma lista de compras. Exiba a lista no console.
 
+let listaDeCompra = ["Cerveja" , "Picanha" , "Salsicha" , "Pinga"]
+console.log(listaDeCompra)
+
+
 
 Exercício 9: Crie uma variável chamada primeiroItem e atribua a ela o primeiro item da lista
 de compras do exercício anterior. Exiba o valor no console.
+
+let listaDeCompra = ["Cerveja" , "Picanha" , "Salsicha" , "Pinga"]
+let primeiroItem = listaDeCompra[0]
+console.log(primeiroItem)
 
 
 Exercício 10: Crie uma variável chamada ultimoItem e atribua a ela o último item da lista de
 compras do exercício 8. Exiba o valor no console.
 
+let listaDeCompra = ["Cerveja" , "Picanha" , "Salsicha" , "Pinga"]
+let ultimoItem = listaDeCompra[3]
+console.log(ultimoItem)
 
 Exercício 11: Crie uma variável chamada idadeString e atribua a ela sua idade como uma
 string. Em seguida, converta essa string em um número inteiro e exiba no console.
 
+let idadeString = "18"
+console.log(parseInt(idadeString))
 
 Exercício 12: Crie uma variável chamada precoProduto e atribua a ela um número decimal
 representando o preço de um produto. Arredonde o preço para o inteiro mais próximo e
 exiba o valor no console.
+
+const precoProduto = "68.99"
+const precoNovo = Math.round(precoProduto)
+console.log(precoNovo)
